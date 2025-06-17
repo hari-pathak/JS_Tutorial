@@ -73,3 +73,52 @@
 
 // console.log(user.name)
 
+
+//Object Destructuring -- extracting values from an object
+
+// const person = {
+//     name: "Sita",
+//     age: 25,
+//     city: "Pokhara"
+// }
+
+// const {name, age, city} = person
+
+// console.log(name)
+// console.log(age)
+// console.log(city)
+
+// Rename Variables
+
+// const {name: username} = person
+
+// console.log(username)
+
+// Nested Object Destructuring
+
+// const employee = {
+//     name: "Ram",
+//     address: {
+//         city: "Bharatpur",
+//         town: "Krishnapur"
+//     }
+// };
+
+// const {name, address: {city, town}} = employee
+
+// console.log(name)
+// console.log(city)
+// console.log(town)
+
+
+// const product = {
+//     title: "Laptop"
+// }
+
+// const {title, price=5000} = product;
+
+// console.log(title);
+// console.log(price)
+
+
+
